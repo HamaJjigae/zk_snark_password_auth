@@ -1,0 +1,12 @@
+[package]
+name = "zksnark_password_auth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bellperson = "0.24"
+rand = "0.8"
+blstrs = "0.6"
+blake2b_simd = "0.5"
+ff = "0.12"
+rand_chacha = "0.3"

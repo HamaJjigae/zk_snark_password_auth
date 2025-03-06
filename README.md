@@ -23,9 +23,9 @@ You will then be prompted to enter a password. The program will check if your in
 How it Works:
     The program uses password hashing based off the Blake2b hash function to hash both input and stored passwords
 
-    The hashed passwords are then used in a zk-Snark circuit to prove that the user knows the correct password
+The hashed passwords are then used in a zk-Snark circuit to prove that the user knows the correct password
     This circuit is generated using the groth16 zk-SNARK protocol from the bellperson crate
 
-    The program generated a zk-SNARK using the groth16 proving system. this allows for verification of the password without sharing the private values.
+The program generated a zk-SNARK using the groth16 proving system. this allows for verification of the password without sharing the private values.
 
-    The circuit is verified against the proof and the program completes.
+The circuit is verified against the proof and the program completes.
